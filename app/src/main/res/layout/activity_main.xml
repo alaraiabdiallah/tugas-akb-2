@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorlightBlue"
+    android:orientation="vertical"
+    android:paddingVertical="@dimen/dimen40"
+    android:paddingHorizontal="@dimen/dimen30">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/ic_welcome_logo"
+        android:layout_gravity="center"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen25"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/EditWhite"
+        android:theme="@style/EditWhiteTheme"
+        android:hint="@string/edt_hint_username" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen10"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/EditWhite"
+        android:theme="@style/EditWhiteTheme"
+        android:hint="@string/edt_hint_password" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen20"/>
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ButtonOutlineWhite"
+        android:text="@string/btn_txt_login"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_or"
+        android:gravity="center"
+        android:paddingVertical="@dimen/dimen10"
+        style="@style/TxtHeading4White" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ButtonOutlineWhite"
+        android:text="@string/btn_txt_fb"
+        />
+    <TextView
+        android:id="@+id/txt_regis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/dimen10"
+        style="@style/TxtHeading4White" />
+
+</LinearLayout>

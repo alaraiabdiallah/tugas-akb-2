@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ButtonOutlineWhite" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/bg_btn_outline_white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+    <style name="ButtonOutlineBlue" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/bg_btn_outline_blue</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorlightBlue</item>
+    </style>
+</resources>

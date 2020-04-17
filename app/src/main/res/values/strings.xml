@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Tugas 2 AKB</string>
+    <string name="btn_txt_login">Login</string>
+    <string name="btn_txt_verify">Verify</string>
+    <string name="btn_txt_send">Send</string>
+    <string name="btn_txt_fb">Connect with facebook</string>
+    <string name="btn_txt_regis">Register</string>
+    <string name="txt_or">OR</string>
+    <string name="txt_regis">doesn`t have account ? &lt;b>Register&lt;/b></string>
+    <string name="txt_resend_code">doesn`t get the code ? &lt;b>Resend&lt;/b></string>
+    <string name="heading_txt_almost">Almost There</string>
+    <string name="heading_txt_verify">Verify your Account</string>
+    <string name="screen3_txt_desc">Thank you for registering with us. One more step, you need to check your email to active your account.</string>
+    <string name="screen4_txt_desc">We have send verification code to your email</string>
+    <string name="edt_hint_username">Username</string>
+    <string name="edt_hint_password">Password</string>
+    <string name="edt_hint_re_password">Retype Password</string>
+    <string name="edt_hint_verify">enter verification code here.</string>
+    <string name="edt_hint_phone">Phone number</string>
+    <string name="edt_hint_home_addr">Home Address</string>
+    <string name="edt_hint_location">Default Location</string>
+    <string name="radio_txt_male">Male</string>
+    <string name="radio_txt_female">Female</string>
+    <string name="radio_txt_personal">Personal</string>
+    <string name="radio_txt_organization">Organization</string>
+    <string name="check_txt_agree">Agree with Terms and Conditions</string>
+    <string-array name="blood_types">
+        <item>Blood Type</item>
+        <item>A</item>
+        <item>B</item>
+        <item>AB</item>
+        <item>O</item>
+    </string-array>
+    <string-array name="reshus">
+        <item>Reshus</item>
+    </string-array>
+    <string-array name="job">
+        <item>Job</item>
+    </string-array>
+</resources>
